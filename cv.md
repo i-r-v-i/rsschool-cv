@@ -19,6 +19,7 @@
 * Git, GitHub
 * React, React Router, Redux
 * Webpack
+* Figma
 
 
 ### Code example:
