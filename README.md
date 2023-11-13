@@ -2,4 +2,4 @@
 
 ссылка на cv:
 
-https://IrinaVinit.github.io/rsschool-cv/
+https://i-r-v-i.github.io/rsschool-cv/
