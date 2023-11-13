@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "module": "ESNext",
+      "target": "es5",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "moduleResolution": "node",
+      // "baseUrl": ".",
+      // "paths": {
+      //    "*": ["./src/*"]
+      // },
+      // для нормальных импортов
+       "esModuleInterop": true,
+      
+      // Если какая-либо библиотека не имеет default import,
+      // лоадеры вроде ts-loader или babel-loader автоматически создают их 
+      // вместо такого импорта import * as React from 'react' 
+      // можно писать так: import React from 'react' 
+      "allowSyntheticDefaultImports": true
+    },
+    "ts-node": {
+        "compilerOptions": {
+          "module": "CommonJS"
+        }
+      },
+      // "include": [
+      //   "./config/jest/setupTests.ts",
+      //   // исправилась проблема абсолютных путей и поиска реакта в каждом модуле добавлением этой строки
+      //   "src/**/*.ts",
+      //   "src/**/*.tsx",
+      // ],
+  }
