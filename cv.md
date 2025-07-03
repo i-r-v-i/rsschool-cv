@@ -38,7 +38,6 @@ function modifyMultiply (str,loc,num) {
 
 
 ### Projects:
-* Russian travel
 * Repair of photo-camera
 * Habbits-tracker
 * Mesto
