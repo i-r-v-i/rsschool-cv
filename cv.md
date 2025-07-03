@@ -44,8 +44,7 @@ function modifyMultiply (str,loc,num) {
 * Stellar-Burger
 
 ### Courses:
-* Yandex-Praktikum Course "Front-end Developer plus"
-* 
+* Yandex-Praktikum Course "Front-end Developer plus"s
 
 ### Languages:
 * English: B1
