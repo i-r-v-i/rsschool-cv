@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/CV.png">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
     <title>CV Irina Vinitskaia</title>
-</head>
-<body>
-    <div id="root"></div>
-</body>
+  </head>
+  <body class="body">
+    <div class="container">
+      <header class="header">
+        <div class="length"></div>
+      </header>
+      <main class="main">
+        <section class="profile">
+          <div class="profile-text">
+            <h1 class="profile-text__name">Ирина Виницкая</h1>
+            <p class="profile-text__position">Фронтенд-разработчик</p>
+          </div>
+          <div class="contacts">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <div class="contact-icon city"></div>
+                <p>Москва, м. Орехово</p>
+              </li>
+              <li class="contacts-item">
+                <div class="contact-icon email"></div>
+                <p>IrVinity@yandex.ru</p>
+              </li>
+              <li class="contacts-item">
+                <div class="contact-icon gh"></div>
+                <p>i-r-v-i</p>
+              </li>
+              <li class="contacts-item">
+                <div class="contact-icon tg"></div>
+                <p>@IrinaVinity</p>
+              </li>
+              <!-- <li class="contacts-item">
+                <div class="contact-icon ph"></div>
+                <p>+7(926)043-51-43</p>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+        <section class="about">
+          <div class="length about-length__container">
+            <div class="photo-container border-container">
+              <img src="./assets/img/FOTO.jpg" alt="my Photo" class="photo">
+            </div>
+            <div class="education border-container div__container">
+              <h2 class="section-title">Образование</h2>
+              <ul class="list">
+              <li class="list-item">
+                2001 Высшее <span>Ростовский государственный экономический университет</span>
+              </li>
+            </ul>
+            </div>
+           
+            <div class="border-container div__container">
+              <h2 class="section-title">Повышение квалификации / курсы</h2>
+              <ul class="list">
+                <li class="list-item">
+                  Yandex Praktikum <span>Фуллстек-разработчик</span>
+                </li>
+                <li class="list-item">@UlbiTV <span>Продвинутый Frontend в production на React</span></li>
+              </ul>
+            </div>
+            <div class="div__container border-container">
+              <h2 class="section-title">English</h2>
+              <p class="list-item">B2 <span>Upper Intermediate</span></p>
+            </div>
+            <div class="div__container border-container">
+              <h2 class="section-title">Опыт вождения</h2>
+              <p class="list-item">Права категории В <br><span>Имеется собственный автомобиль</span></p>
+            </div>
+            <div class="div__container border-container">
+              <h2 class="section-title">О себе</h2> 
+              <p class="list-item"><span>Мне нравится процесс создания продукта: от замысла до полного идеального воплощения, поэтому я получаю удовольствие от написания кода и реализации различных фич с помощью современных web-технологий. Как программист и профессиональный музыкант считаю, что у программирования и музыки есть много общего - в том числе возможность с помощью инструмента-клавиатуры создавать большие и малые шедевры.</span></p>               
+            </div>    
+          </div>
+          <div class="main-section">
+            <div class="main-container">
+                  <p class="points">Занятость: <span>полная занятость, частичная занятость</span> </p>
+                  <p class="points">График работы: <span>полный день, неполный день, удаленная работа</span></p>
+                  <p class="points">Не готова к переезду, не готова к командировкам</p>
+            </div>
+            <div class="main-container">
+              <h2 class="section-title main-section__title">Опыт работы</h2>
+              <div class="title-line"></div>
+                
+              <div class="work-experience">
+                  <div class="exp-item">Ноябрь 2023 - наст.вр.
+                    <p class="italic">7 месяцев</p>
+                  </div> 
+                  <div class="points">Стажировка в Школа IT, Фронтенд-разработчик 
+                    <p class="points">Работа над проектом сайта-агрегатора приютов для животных. Агрегатор собирает и предоставляет в одной ленте актуальную информацию о животных из приютов и котокафе того или иного города.</p>
+                    <ul class="project-list">
+                      <li class="list-item italic project">
+                        <a href="https://ff.god-it.ru" target="_blank" class="link project-link ">Find Friend</a>
+                        <span>Next.js, Redux-toolkit, scss</span>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+
+              <div class="work-experience">
+                  <div class="exp-item">Январь 2024 - наст.вр
+                    <p class="italic">5 месяцев</p>
+                  </div> 
+                  <div class="points">Проектная деятельность, Front-end разработчик 
+                    <p class="points">Работа над проектом Блог - портфолио</p>
+                    <ul class="project-list">
+                      <li class="list-item italic project">
+                        <a href="https://github.com/i-r-v-i/production-project" target="_blank" class="link project-link ">Блог-портфолио</a>
+                        <span>React, Redux-toolkit, Storybook, Typescript, Webpack</span>
+                      </li>
+                     
+                    </ul>
+                  </div>
+              </div> 
+                
+              <div class="work-experience">
+                  <div class="exp-item">Март 2022 - Сентябрь 2024</div> 
+                  <div class="points">Обучение в Яндекс Практикуме, Fullstek-разработчик
+                    <ul class="project-list mt-18">
+                      <li class="list-item italic project">
+                        <a href="https://github.com/i-r-v-i/Repair-of-photo-camera" target="_blank" class="link project-link ">Repair of photo-camera</a>
+                        <span>Html, scss, Vanilla JS</span>
+                      </li>
+                      <li class="list-item italic project">
+                        <a
+                          href="https://i-r-v-i.github.io/mesto-project/"
+                          target="_blank"
+                          class="link project-link "
+                          >Mesto </a>
+                          <span>OOP, Vanilla JS, REST API</span>
+                      </li>
+                     
+                      <li class="list-item italic project">
+                        <a href="https://github.com/i-r-v-i/Stellar-Burgers" target="_blank" class="link project-link ">Stellar-Burger </a>
+                        <span>React, Redux, React-Router, TypeScript, Drag-and-drop (react-dnd), Websocket</span>
+                      </li>
+                      <li class="list-item italic project">
+                        <a href="https://github.com/i-r-v-i/algosos-testing" target="_blank" class="link project-link ">Algososh of Fibonacci </a>
+                        <span>React, TypeScript, Jest, Cypress</span>
+                      </li>
+                    </ul>
+                  </div>
+              </div> 
+                
+              <h3>Нерелевантный опыт</h3>
+                <p class="points">С 2001г работала в области высшего профессионального и дополнительного образования - преподаватель/ инспектор учебных групп/ заместитель заведующего отделением/руководитель подразделения дополнительного образования взрослых. Также с 2014 по 2017гг - сотрудник отдела по связям с общественностью: ответственная за страницу сайта факультета университета, визуальная и содержательная части.
+                Имею навык анализа и систематизации данных, опыт взаимодействия с различными подразделениями компании как в должности рядового сотрудника, так и руководящей должности.</p>
+            </div>
+            <div class="main-container">
+              <h2 class="section-title main-section__title">Навыки</h2>
+              <div class="title-line"></div> 
+              <ul class="points">
+                <li class="list-item"><span>HTML5, CSS3, SASS/SCSS, JavaScript, TypeScript</span>
+                </li>
+                <li class="list-item"><span>React, React-Router, Redux, Redux-toolkit, Next.js</span>
+                </li>
+                <li class="list-item"><span>GIT, Github</span></li>
+                <li class="list-item"><span>Jest, Cypress</span></li>
+                <li class="list-item"><span>Webpack</span></li>
+              </ul>
+              <h3 class="mt-25">Опыт работы с</h3>
+                <p> - Docker, docker-compose</p>
+                <p> - Node.js, Express, MongoDB, PostgreSQL</p>
+                <p>Опыт настройки Webpack под development/production окружение</p>
+                <p>Английский язык на уровне чтения тех. документации</p>
+              
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
+
+
