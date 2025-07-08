@@ -8,8 +8,7 @@
 
 
 ### About Myself:
- I have been studying programming in early 2022. Before this I was engaged in professional music - I played the instrument solo and in a group, conducted the choir and directed the department of additional education at the university that graduated musicians and singers. I published music tutorials and wrote educational programs. Music, which still remains my love, has a lot in common with programming, but the main thing is a keyboard instrument, on which you can create some small and large masterpieces alone and in a team.
- I have completed several projects on native JS and React. I am looking for an opportunity to gain experience working in a team on real projects to develop my knowledge and consolidate my skills.
+ I have completed several projects on native JS, React and TypeScript. I like coding, improving my skills and I focused on results.
 
 
 ### Skills and Proficiency:
@@ -38,17 +37,17 @@ function modifyMultiply (str,loc,num) {
 } 
 ```
 
-
 ### Projects:
-* Russian travel
+* Habbit`s tracker
 * Repair of photo-camera
 * Mesto
 * Stellar-Burger
+* Algososh of Fibonacci 
 
 ### Courses:
-* Yandex-Praktikum Course "Front-end Developer plus" (in progress)
-* Hexlet Different courses
+* Yandex-Praktikum Course "Front-end Developer plus" 
+* RS School Frontend (in process)
 
 ### Languages:
-* English: B1 (I have some speaking practice, but not with native speakers)
-* Italian: A1
+* English: B2
+
