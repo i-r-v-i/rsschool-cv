@@ -36,15 +36,19 @@ function modifyMultiply (str,loc,num) {
 } 
 ```
 
-
 ### Projects:
+
 * Repair of photo-camera
 * Habbits-tracker
 * Mesto
 * Stellar-Burger
+* Algososh of Fibonacci 
 
 ### Courses:
-* Yandex-Praktikum Course "Front-end Developer plus"s
+
+* Yandex-Praktikum Course "Front-end Developer plus" 
+* RS School Frontend (in process)
 
 ### Languages:
-* English: B1
+* English: B2
+
