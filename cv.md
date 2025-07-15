@@ -10,13 +10,12 @@
 ### About Myself:
  I have completed several projects on native JS, React and TypeScript. I like coding, improving my skills and I focused on results.
 
-
 ### Skills and Proficiency:
 * HTML5, CSS3, SCSS
 * JavaScript
 * TypeScript
 * Git, GitHub
-* React, React Router, Redux
+* React, React Router, Redux, Redux-toolkit, Next.js
 * Webpack
 * Figma
 
@@ -38,13 +37,15 @@ function modifyMultiply (str,loc,num) {
 ```
 
 ### Projects:
-* Habbit`s tracker
+
 * Repair of photo-camera
+* Habbits-tracker
 * Mesto
 * Stellar-Burger
 * Algososh of Fibonacci 
 
 ### Courses:
+
 * Yandex-Praktikum Course "Front-end Developer plus" 
 * RS School Frontend (in process)
 
